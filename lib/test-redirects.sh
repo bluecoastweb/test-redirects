@@ -6,7 +6,7 @@
 # Example:
 #-------------------------------------------------------------------------------
 
-#   . ~/bin/test-redirects.sh
+#   . ~/lib/test-redirects.sh
 #
 #   test_redirect http://example.com/foo/bar http://foo.example.com/bar
 
@@ -14,7 +14,7 @@
 # Example: multiple, similar URLs
 #-------------------------------------------------------------------------------
 
-#   . ~/bin/test-redirects.sh
+#   . ~/lib/test-redirects.sh
 #
 #   base_url=http://example.com
 #
@@ -34,7 +34,7 @@
 # Example: multiple, dissimilar URLs
 #-------------------------------------------------------------------------------
 
-#   . ~/bin/test-redirects.sh
+#   . ~/lib/test-redirects.sh
 #
 #   for send_and_expect in \
 #       "http://example.com/old/path http://foo.example.com/brand/new/path" \
