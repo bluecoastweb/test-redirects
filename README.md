@@ -1,12 +1,12 @@
 test-redirects
 ==============
 
-Automate testing HTTP redirects
+Shell script to automate testing HTTP redirects.
 
 Dependencies
 ------------
 
-1. cURL
+* cURL
 
 How-to
 ------
