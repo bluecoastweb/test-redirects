@@ -1,4 +1,4 @@
 test-redirects
 ==============
 
-Shell script to automate testing HTTP redirects
+Automate testing HTTP redirects

@@ -22,8 +22,9 @@
 #       "foo bar" \
 #       "fizz boom"
 #   do
-#       send=`  echo $send_and_expect | cut -f1 -d" "`
-#       expect=`echo $send_and_expect | cut -f2 -d" "`
+#       "old/path brand/new/path" \
+#       "hello/world goodbye/cruel/world"
+#
 #       test_redirect $base_url/$send $base_url/$expect
 #   done
 #
@@ -36,7 +37,7 @@
 #   . ~/bin/test-redirects.sh
 #
 #   for send_and_expect in \
-#       "http://example.com/foo/bar http://foo.example.com/bar" \
+#       "http://example.com/old/path http://foo.example.com/brand/new/path" \
 #       "http://example.com/login https://secure.example.com/sign-in"
 #   do
 #       split_and_test_redirect $send_and_expect
